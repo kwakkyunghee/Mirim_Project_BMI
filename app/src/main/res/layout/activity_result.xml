@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#9A564B67"
+    tools:context=".ResultActivity">
+    <Button
+        android:id="@+id/home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/home"/>
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI 결과"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text_result_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 코멘트 자리"
+        android:layout_marginTop="35dp"
+        android:textSize="17sp"
+        android:textColor="#1F2235"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
